@@ -1,3 +1,5 @@
+const Cardarea= document.getElementById("cardArea")
+
 const cards = [
     {
         amount: "1,934,470.90",
@@ -41,7 +43,7 @@ let output = "";
 
 cards.forEach(card => {
     output += `
-    <div class="col-md-6 col-lg-3">
+    <div class="col">
         <div class="card text-white ${card.color} border-0 overflow-hidden">
             <div class="card-body d-flex justify-content-between align-items-center py-4">
                 <div>
@@ -58,4 +60,4 @@ cards.forEach(card => {
     `;
 });
 
-document.getElementById("cardArea").innerHTML = output;
+Cardarea.innerHTML = output; 
