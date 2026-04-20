@@ -1,7 +1,7 @@
-.icon  .cart-icon{
+/* .icon  .cart-icon{
     font-size: 120px;
   
-}
+} */
 
 .footer-icon{
     background-color: white;
@@ -43,4 +43,25 @@
 
 .card-5{
     background-color: rgb(204, 65, 65);
+}
+
+.card{
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.content{
+    position: relative;
+    padding: 5px;
+}
+
+.icon{
+    position: absolute;
+    right: -15px;
+    top: 10px;
+    opacity: .25;
+}
+
+.icon .cart-icon{
+    font-size: 120px;
 }
